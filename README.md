@@ -17,7 +17,7 @@ The detailed information provided for each item includes the release date, ratin
 
 ## License
 
-BingeVault is licensed under the MIT License. You are free to use, modify, and distribute this software as long as the original license is included.
+BingeVault is licensed under the [MIT License](https://github.com/dikym/binge-vault/blob/main/LICENSE). You are free to use, modify, and distribute this software as long as the original license is included.
 
 ## Credits
 
