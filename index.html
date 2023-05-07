@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BingeVault - Movies & Series Database</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="d-flex flex-column h-100">
+    <main class="container my-5 px-4">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">BingeVault - Movies &amp; Series Database</h1>
+          <p class="lead text-center">
+            BingeVault simplifies finding your next favorite film or series with
+            a user-friendly interface and comprehensive details such as
+            synopsis, director, rating, and release year, all in one constantly
+            updated database.
+          </p>
+        </div>
+      </div>
+
+      <div class="row my-5">
+        <div class="col-md-6 mx-auto">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control search-input"
+              placeholder="Search"
+            />
+            <button class="btn btn-primary search-button" type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="19"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 19 19"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row card-container">
+        <h4 class="text-center text-muted my-5">
+          <em>Search some movie or series...</em>
+        </h4>
+      </div>
+    </main>
+
+    <section>
+      <div
+        class="modal modal-lg fade"
+        id="card-modal"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Movie Detail
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-muted p-4 mt-auto">
+      <span>Made with &#10084; by Diky</span>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
