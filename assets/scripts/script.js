@@ -69,7 +69,7 @@ function showMovieCard({ Title: title, Year: year, Poster: poster, imdbID }) {
       <div class="card-body d-flex flex-grow-1 flex-column">
         <h5 class="card-title" style="max-width: ${maxTitleWidth}px; font-size: ${titleFontSize}px">${title}</h5>
         <h6 class="card-subtitle mb-2 text-body-secondary">${year}</h6>
-        <button class="btn btn-primary mt-auto modal-button" data-imdbid="${imdbID}" data-bs-toggle="modal" data-bs-target="#card-modal">show detail</button>
+        <button class="btn btn-primary mt-auto modal-button" data-imdbid="${imdbID}" data-bs-toggle="modal" data-bs-target="#card-modal">Show Detail</button>
       </div>
     </div>
   `;
